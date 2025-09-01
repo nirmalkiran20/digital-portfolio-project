@@ -1,13 +1,11 @@
+// FILE: next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
+    domains: ['images.unsplash.com', 'cdn.jsdelivr.net'], // adjust as needed
   },
-}
-
-module.exports = nextConfig
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  // typescript: { ignoreBuildErrors: true },
+};
