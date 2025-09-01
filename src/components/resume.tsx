@@ -13,8 +13,8 @@ export function Resume() {
     fileType: 'PDF',
     lastUpdated: 'March 2025',
     fileSize: '0.5 MB',
-    previewImageSrc: '/resume_giraud_preview.png',
-    downloadUrl: '/resume_giraud.pdf',
+    previewImageSrc: '/resume_kiran_nirmal_preview.png',
+    downloadUrl: '/resume_kiran_nirmal.pdf',
   };
 
   const handleDownload = () => {
@@ -71,3 +71,7 @@ export function Resume() {
 }
 
 export default Resume;
+
+
+
+

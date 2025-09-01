@@ -14,3 +14,5 @@ export function MotionArticle(props: HTMLMotionProps<'article'>) {
 export function MotionH1(props: HTMLMotionProps<'h1'>) {
   return <motion.h1 {...props} />;
 }
+
+

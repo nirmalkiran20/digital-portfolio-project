@@ -143,3 +143,5 @@ export function Photos({ photos, className = '', title }: PhotosProps) {
 }
 
 export default Photos;
+
+

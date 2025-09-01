@@ -139,3 +139,5 @@ const InternshipCard = () => {
 };
 
 export default InternshipCard;
+
+

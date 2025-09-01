@@ -66,3 +66,5 @@ export function getPostsByCategory(category: string): Omit<BlogPost, 'content'>[
   const posts = getAllPosts();
   return posts.filter((p) => (p.category || 'Uncategorized').trim().toLowerCase() === category.trim().toLowerCase());
 }
+
+

@@ -4,15 +4,8 @@ import { useRouter } from 'next/navigation';
 import FluidCursor from '@/components/FluidCursor';
 import { Button } from '@/components/ui/button';
 import { motion, AnimatePresence } from 'framer-motion';
-import {
-  ArrowRight,
-  BriefcaseBusiness,
-  Laugh,
-  Layers,
-  PartyPopper,
-  UserRoundSearch,
-  Search,
-} from 'lucide-react';
+
+import {  ArrowRight,  BriefcaseBusiness,  Laugh,  Layers,  PartyPopper,  UserRoundSearch,  Search,} from 'lucide-react';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { searchContent } from '@/lib/searchData';
@@ -286,3 +279,5 @@ export default function Home() {
     </div>
   );
 }
+
+

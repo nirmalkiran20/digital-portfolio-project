@@ -1,4 +1,5 @@
 // @hidden
+{/*
 export default function MessageLoading() {
   return (
     <svg
@@ -43,3 +44,5 @@ export default function MessageLoading() {
     </svg>
   );
 }
+
+*/}

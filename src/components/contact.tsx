@@ -17,7 +17,7 @@ export function Contact() {
       },
       {
         name: 'Youtube',
-        url: 'https://www.youtube.com/@toukoum',
+        url: 'https://www.youtube.com/@Kiran_Nirmal',
       },
       {
         name: 'Instagram',
@@ -25,15 +25,15 @@ export function Contact() {
       },
       {
         name: 'Discord',
-        url: 'https://discord.com/users/toukoum',
+        url: 'https://discord.com/users/Kiran_Nirmal',
       },
       {
         name: 'Github',
-        url: 'https://github.com/toukoum',
+        url: 'https://github.com/Kiran_Nirmal',
       },
       {
         name: 'X',
-        url: 'https://x.com/toukoumcode',
+        url: 'https://x.com/Kiran_Nirmalcode',
       },
     ],
   };
@@ -90,3 +90,5 @@ export function Contact() {
 }
 
 export default Contact;
+
+

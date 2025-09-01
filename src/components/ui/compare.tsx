@@ -238,3 +238,5 @@ export const Compare = ({
 };
 
 const MemoizedSparklesCore = React.memo(SparklesCore);
+
+
